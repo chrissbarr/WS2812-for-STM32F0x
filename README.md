@@ -11,6 +11,10 @@ An even better approach would use the DMA to take care of writing a buffer out t
 ## Usage
 See the included example file. Most any pin / port can be used to drive the LEDs (or at least, I am aware of no limitation).
 
+## Requirements
+* Microcontroller clocked at 48MHz
+* Luck
+
 ## Handy References
 * [WS2812B Datasheet](https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf) (timing diagrams that I have blatantly ignored)
 * [NeoPixel Library by Adafruit](https://github.com/adafruit/Adafruit_NeoPixel) (library this code was based on)
